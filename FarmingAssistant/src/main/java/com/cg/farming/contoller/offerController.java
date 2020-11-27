@@ -57,7 +57,7 @@ public class offerController {
     
     @DeleteMapping("/deleteoffer/{offer_Id}")
     public String deleteOffer(@PathVariable("offer_Id")String offerId)throws OfferNotFoundException{
-    	
+    	System.out.println("hii evryone");
     	
     	return ser.deleteOffer(offerId);
     	
